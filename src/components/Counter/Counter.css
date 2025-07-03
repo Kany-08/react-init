@@ -1,0 +1,19 @@
+.counter {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.counter__icon {
+    font-size: 30px;
+}
+
+.counter__value {
+     color: red;
+     font-weight: bold;
+}
+
+.counter__button {
+    background-color: transparent;
+}

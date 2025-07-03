@@ -4,7 +4,7 @@ import { TaskList } from './components/TaskList';
 import { ThemeSwitch } from './components/ThemeSwitch/ThemeSwitch';
 import { Counter } from './components/Counter/Counter';
 import { useState } from 'react';
-import HeartSwitch from './components/HeartSwitch/HeartSwitch';
+import { HeartSwitch } from './components/HeartSwitch/HeartSwitch';
 
 
 const tasks = [

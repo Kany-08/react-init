@@ -34,7 +34,7 @@ function App() {
   
   return (
     <>
-    <HeartSwitch/>
+    <HeartSwitch />
     <Counter count={count} onIncrement={incCount}/>
     <ThemeSwitch onSwitch={onSwtich}/>
       <TaskList tasks={tasks} />

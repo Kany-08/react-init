@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './HeartSwitch.css';
 
 
-const HeartSwitch = () => {
+export const HeartSwitch = () => {
     const [liked, setLiked] = useState(false);
 
     const toggleHeart = () => {
@@ -16,5 +16,5 @@ const HeartSwitch = () => {
     )
 }
 
-export default HeartSwitch
+
 
